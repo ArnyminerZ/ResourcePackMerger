@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/dist/pico.min.css">
+
+    <link rel="stylesheet" href="/css/main.css">
+
+    <title>Resource Pack Merger</title>
+</head>
+<body>
+<main class="container">
+    <h1>Resource Pack Merger</h1>
+    <article class="drop-zone">
+        <h3>Click to select files</h3>
+        <input type="file" id="filePicker" accept="*.zip" multiple />
+        <footer id="selectedFiles"></footer>
+    </article>
+    <button id="confirmButton">Confirm</button>
+</main>
+
+<script src="/dist/jszip.min.js"></script>
+
+<script src="/js/utils.js"></script>
+<script src="/js/processor.js"></script>
+<script src="/js/selector.js"></script>
+<script src="/js/drop.js"></script>
+</body>
+</html>

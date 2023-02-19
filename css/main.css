@@ -1,0 +1,9 @@
+.list-item {
+    margin: 0;
+}
+
+.list-item:hover {
+    text-decoration: line-through;
+    cursor: pointer;
+    opacity: .5;
+}
